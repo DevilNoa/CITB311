@@ -23,12 +23,12 @@ def eq_Roots(a, b, c):
         print("no real roots")
 
 
-# Driver Program
+# вкарване на a,b,c
 a = int(input())
 b = int(input())
 c = int(input())
 
-# If a is 0, then incorrect equation
+# ако а ни е  0, тогава принтирсме едното условие
 if a == 0:
     print("special case")
 
