@@ -20,3 +20,11 @@
 # input("the meaning of life")
 #  # чете от конолата след текста
 # print("But what is the question then ")
+
+# print(pow(2, 3))
+# print(10 + pow(2, 3 * 5) / 3.0)
+# print(abs(-10))  # 24/26
+
+
+import math
+print(math.floor(32.9))
