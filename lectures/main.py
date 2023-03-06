@@ -102,7 +102,7 @@
 
 # sequence = [None]*10
 # print(sequence)  #103/104
-
+#  #ще излолзвам print("~~"*10) за разделяща линия 
 # permissions = 'rw'
 # print('w' in permissions)
 # print('x' in permissions)
