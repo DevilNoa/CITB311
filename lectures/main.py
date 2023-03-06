@@ -116,9 +116,9 @@
 # print('viagra' in mailSubject)  #106/116
 
 numbers = [100,34,678]
-print(len(numbers))
-print(max(numbers))
-print(min(numbers))
+print(len(numbers))  #дължина на редицата
+print(max(numbers))  #най-голямото число от редицата
+print(min(numbers))  #най-малкото число от редицата 
 print("~~"*10)
 print(max(2,3))
 print(min(9,3,2,5))
