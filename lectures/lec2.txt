@@ -1,0 +1,40 @@
+Списъци  и кортежи 
+
+Командата принт може да приема множество параметри който трябва да се разделят със запетая 
+answer = 42
+question = "about the life, universe and everything"
+
+print("the answer of the question", question, "is", answer) #36/39
+
+присвояване
+a,b,c = 1,2,3
+При С езиците присвояването:
+b=a
+a=c
+c=b
+В Python:
+a, b = b, a
+a, b, c = 1, 2, 3
+print(a, b, c)
+a, c = c, a
+print(a, b, c)
+
+пример за if else и разликата от дигите С езици 
+
+password = 123456
+if password == 123456:
+    print("welcome!")
+else:
+    print("wrong pass")  #47/51
+
+друга разлика от С езиците е командата elif за разлика от else if 
+num=int(input('enter a number: '))
+if num>0:
+    print(num," The number is positive")
+elif num<0:
+    print("the number is negative")
+else:
+    print("the number is zero")  #53/59
+
+
+сравнителни оператори
