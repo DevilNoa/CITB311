@@ -26,5 +26,34 @@
 # print(abs(-10))  # 24/26
 
 
-import math
-print(math.floor(32.9))
+# import math
+# print(math.floor(32.9))
+
+
+# lec 2
+
+
+# answer = 42
+# question = "about the life, universe and everything"
+#
+# print("the answer of the question", question, "is", answer) #36/39
+
+# a, b, c = 1, 2, 3
+# print(a, b, c)
+# a, c = c, a
+# print(a, b, c)
+
+
+# password = 123456
+# if password == 123456:
+#     print("welcome!")
+# else:
+#     print("wrong pass")  #47/51
+
+# num=int(input('enter a number: '))
+# if num>0:
+#     print(num," The number is positive")
+# elif num<0:
+#     print("the number is negative")
+# else:
+#     print("the number is zero")  #53/59
