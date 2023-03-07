@@ -120,4 +120,43 @@ print(max(2,3))
 print(min(9,3,2,5))
 print("~~"*10)
 print(list('Hello'))  # създаване на списък от редица #118/126
+ 
+Базови операции 
+Можем да прилагаме стандартни опр върху списъци, и можем да ги модифицираме 
+Присвояване на елемент 
+students = ['Ivan','Petkan', 'Dragan']
+print(students[0])
+students[0]='Stoyan'
+print(students[0])
+print(students)  #128/132
+
+изтриване на елементи
+subjects = ['summer vacation offer','your salary for september','report for new students ASAP']
+# print(subjects)
+# del subjects[2]
+# print(subjects)  #134/137
+ 
+присвояване на отрязъци 
+name = list ('Nikola Bukov')
+print(name)
+name[6:]=list('Schwarzenegger')
+print(name) #139/142
+
+копиране
+a = [1,2,3]
+b=a
+print(a)
+print(b)
+print('~~'*10)
+a.append(4)
+print(a)
+print(b) # 144/151
+
+методи
+chores=['clean the blackboard','open the windows','throw the garbage']
+chores.append('close he door')
+print(chores) #153/155
+
+print(['to', 'bee', 'or', 'not', 'to', 'bee'].count('to'))
+print([[1, 2], 1, 1, [1, 2]].count(1))  #157/158
 
