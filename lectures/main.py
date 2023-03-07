@@ -102,7 +102,7 @@
 
 # sequence = [None]*10
 # print(sequence)  #103/104
-#  #ще излолзвам print("~~"*10) за разделяща линия 
+#  #ще излолзвам print("~~"*10) за разделяща линия
 # permissions = 'rw'
 # print('w' in permissions)
 # print('x' in permissions)
@@ -115,12 +115,45 @@
 # mailSubject='buy cheap viagra now!!!'
 # print('viagra' in mailSubject)  #106/116
 
-numbers = [100,34,678]
-print(len(numbers))  #дължина на редицата
-print(max(numbers))  #най-голямото число от редицата
-print(min(numbers))  #най-малкото число от редицата 
-print("~~"*10)
-print(max(2,3))
-print(min(9,3,2,5))
-print("~~"*10)
-print(list('Hello'))  # създаване на списък от редица #118/126
+# numbers = [100,34,678]
+# print(len(numbers))  #дължина на редицата
+# print(max(numbers))  #най-голямото число от редицата
+# print(min(numbers))  #най-малкото число от редицата
+# print("~~"*10)
+# print(max(2,3))
+# print(min(9,3,2,5))
+# print("~~"*10)
+# print(list('Hello'))  # създаване на списък от редица #118/126
+
+# students = ['Ivan','Petkan', 'Dragan']
+# print(students[0])
+# students[0]='Stoyan'
+# print(students[0])
+# print(students)  #128/132
+
+# subjects = ['summer vacation offer','your salary for september','report for new students ASAP']
+# print(subjects)
+# del subjects[2]
+# print(subjects)  #134/137
+
+# name = list ('Nikola Bukov')
+# print(name)
+# name[6:]=list('Schwarzenegger')
+# print(name) #139/142
+
+# a = [1,2,3]
+# b=a
+# print(a)
+# print(b)
+# print('~~'*10)
+# a.append(4)
+# print(a)
+# print(b) # 144/151
+
+# chores=['clean the blackboard','open the windows','throw the garbage']
+# chores.append('close he door')
+# print(chores) #153/155
+
+print(['to', 'bee', 'or', 'not', 'to', 'bee'].count('to'))
+print([[1, 2], 1, 1, [1, 2]].count(1))  #157/158
+
