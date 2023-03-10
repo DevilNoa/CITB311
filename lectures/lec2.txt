@@ -153,6 +153,7 @@ print(a)
 print(b) # 144/151
 
 методи
+Count метод 
 chores=['clean the blackboard','open the windows','throw the garbage']
 chores.append('close he door')
 print(chores) #153/155
@@ -160,3 +161,62 @@ print(chores) #153/155
 print(['to', 'bee', 'or', 'not', 'to', 'bee'].count('to'))
 print([[1, 2], 1, 1, [1, 2]].count(1))  #157/158
 
+extend метод 
+a = [1, 2, 3]
+b = [4, 5, 6]
+a.extend(b)
+print(a)  #160/163
+index метод 
+
+innovationRating=['Sweden', 'Germany', 'Denmark','Finland', 'Netherlands', 'Luxembourg', 'Belgium', 'UK','Austria', 'Ireland', 'France', 'Slovenia', 'Cyprus', 'Estonia','Italy', 'Spain', 'Portugal', 'Chech republic', 'Greece', 'Slovakia','Hungary', 'Malta', 'Litva', 'Poland', 'Latvia', 'Romania','Bulgaria']
+print("Bulgaria is on ", innovationRating.index('Bulgaria')+1,'place from',len(innovationRating))  #165/166
+важно за index е  ако изброяваме нещо може да ни се налага да добавим +1 понеже бройм от 0 
+
+insert метод 
+numbers = [1, 2, 3, 5, 6, 7]
+print(numbers)
+print('~~' * 10)
+numbers.insert(3, 'four')
+print(numbers)  #168/172
+
+pop метод
+print(innovationRating)
+print('~~' * 10)
+innovationRating.pop()
+print(innovationRating)
+този метод премахва последният елемент от списъкът 
+remove метод 
+h = ['two', 'bee', 'or', 'not', 'two', 'bee']
+print(h)
+print(space)
+h.remove('bee')
+print(h)  #179/183
+
+reverse метод
+
+print(innovationRating)
+print(space)
+innovationRating.reverse()
+print(innovationRating)  # 185/188
+sort метод 
+този метод не сортира списък а сортира извиканият списък
+c = ['Italy', 'Bulgaria', 'Spain', 'Germany', 'France']
+print(c)
+print(space)
+c.sort(key=len, reverse=True)
+print(c) #193/197
+
+blist
+
+кортежи
+те са последователности като списъците но не могат да се променят 
+символните низове също не могат да се променят 
+празен кортеж се пише в () но ако искаме кортеж с единична стойност трябва да има запетайка (21,)
+print(tuple([1, 2, 3]))
+print(space)
+print(tuple(['a', 'b', 'c']))
+print(space)
+print(tuple((1, 2, 3)))  #199/203  
+
+цикли 
+най-често ги използваме като се налага да обхождаме или да правим нещо със всеки елемент на множеството  функцията работи като включва първият елемент но изключва последният то генерира от 0 до числото преди стойността на елемента  
