@@ -154,6 +154,101 @@
 # chores.append('close he door')
 # print(chores) #153/155
 
-print(['to', 'bee', 'or', 'not', 'to', 'bee'].count('to'))
-print([[1, 2], 1, 1, [1, 2]].count(1))  #157/158
+# print(['to', 'bee', 'or', 'not', 'to', 'bee'].count('to'))
+# print([[1, 2], 1, 1, [1, 2]].count(1))  #157/158
 
+# a = [1, 2, 3]
+# b = [4, 5, 6]
+# a.extend(b)
+# print(a)  #160/163
+space = '~~' * 10
+innovationRating = ['Sweden', 'Germany', 'Denmark', 'Finland', 'Netherlands', 'Luxembourg', 'Belgium', 'UK', 'Austria',
+                    'Ireland', 'France', 'Slovenia', 'Cyprus', 'Estonia', 'Italy', 'Spain', 'Portugal',
+                    'Chech republic', 'Greece', 'Slovakia', 'Hungary', 'Malta', 'Litva', 'Poland', 'Latvia', 'Romania',
+                    'Bulgaria']
+# print("Bulgaria is on ", innovationRating.index('Bulgaria')+1,'place from',len(innovationRating))
+
+# numbers = [1, 2, 3, 5, 6, 7]
+# print(numbers)
+# print('~~' * 10)
+# numbers.insert(3, 'four')
+# print(numbers)  #168/172
+
+# print(innovationRating)
+# print('~~' * 10)
+# innovationRating.pop()
+# print(innovationRating)  # 174/177
+
+# h = ['two', 'bee', 'or', 'not', 'two', 'bee']
+# print(h)
+# print(space)
+# h.remove('bee')
+# print(h)  #179/183
+
+# print(innovationRating)
+# print(space)
+# innovationRating.reverse()
+# print(innovationRating)  # 185/188
+
+# c = ['Italy', 'Bulgaria', 'Spain', 'Germany', 'France']
+# print(c)
+# print(space)
+# c.sort(key=len, reverse=True)
+# print(c) #193/197
+
+# print(tuple([1, 2, 3]))
+# print(space)
+# print(tuple(['a', 'b', 'c']))
+# print(space)
+# print(tuple((1, 2, 3)))  #199/203
+
+# countries = ['Iran', 'Iraq', 'France', 'Belgium', 'Poland', 'Czech Republic', 'Chechnya']
+# for c in countries:
+#     print("We should offer our support to", c, '\n')
+# print(space)
+# for i in range(1, 5):
+#     print(i)
+# print(space)
+# product = []
+# s=input('Enter product name:')
+# while s:
+#     product.append(s)
+#     s = input('Enter product name:')
+# print(product)
+# print(space)
+# names = ['Sulyo', 'Pulyo', 'Atanas', 'As']
+# ages = ['19', '21', '24', '30']
+# for i in range(len(names)):
+#     print(names[i], 'is', ages[i], 'yearss old')
+# data = zip(names, ages)
+# for n, a in data:
+#     print(n, 'is', a, 'years old')
+# numlist = [1, 2, 3, 4, 5, ]
+# for num in numlist:
+#     num = num * 2
+#     print(numlist)
+#     for index, num, in enumerate(numlist):
+#         numlist[index] = numlist[index] * 2
+#     print(numlist)
+
+# txt = "Cheap aaa pictures and aaa videos!"
+# text = txt.split(' ')  # Split the string on whitespace
+# for index, string in enumerate(text):
+#     if 'aaa' in string:
+#         text[index] = '[stuff]'
+# txt = " ".join(text)
+# print(txt)
+
+# from math import sqrt
+#
+# for n in range(99, 0, -1):
+#     root = sqrt(n)
+#     if root == int(root):
+#         print(n)
+#         break
+#     else:
+#         print("not found")
+
+# print([x * 2 for x in range(10, 20)])
+# print(space)
+# print([x * 2 for x in range(10, 20) if x % 3 == 0])
