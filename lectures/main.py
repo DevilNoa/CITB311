@@ -1,5 +1,4 @@
 # print("Hello World") # ред 1
-from cmath import pi
 
 # 4/8 ред
 # print(2+2)
@@ -315,3 +314,71 @@ innovationRating = ['Sweden', 'Germany', 'Denmark', 'Finland', 'Netherlands', 'L
 # print ("%+5d" % 10)
 # print ("%+5d" % -10)
 
+# contacts = ['S klasata', 'audi quatro', 'princesata 92']
+# phones = ['111111111', '22222222', '33333333']
+# print(contacts[contacts.index('princesata 92')])
+# print(phones[contacts.index('princesata 92')])
+
+# phonebook={'s lkasata ' : '11111111','pricesa23':'22222222','audi quatro':'33333333'}
+# print(phonebook['s lkasata '])
+
+# constants=[("pi",3.14159),("g",9.18)]
+# d = dict(constants)
+# print(d)
+# print(d['pi'])
+
+# x={}
+# x[42]='foobar'
+# print(x)
+
+
+# d = dict(pi=3.24259,G=9.19)
+# print(d)
+# d.clear()
+# print(d)
+
+# x={}
+# y=x
+# x['key']='value'
+# print(y)
+# x={}
+# print(y)
+
+# x={}
+# y=x
+# x['key']='value'
+# print(y)
+# x.clear()
+# print(y)
+
+# d={'username':'filip','aliases':['phil','fil','fuf']}
+# d2=d.copy()
+# d2['username']='Mike'
+# d2['aliases'].remove('fuf')
+# print(d)
+# print(d2)
+
+# from copy import deepcopy
+#
+# d = {'username': 'filip', 'aliases': ['phil', 'fli', 'fuf']}
+# d2 = d.copy()
+# d3 = deepcopy(d)
+# d['aliases'].append('Felipe')
+# print(d)
+# print(space)
+# print(d2)
+# print(space)
+# print(d3)
+
+# print(dict.fromkeys(['name','age']))
+# # ако не исаме да се подразбира None
+# print(dict.fromkeys(['name','age'],'unknown'))
+
+# d = {}
+# d.get('name')
+# print(d.has_key('name'))
+# d = {'name': 'ivan'}
+# print(d.has_key('name'))
+
+# d= {'title':'NBU','url':'http://www.nbu.bg','spam':0}
+# print(d.items())
