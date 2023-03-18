@@ -1,4 +1,5 @@
 # print("Hello World") # ред 1
+from cmath import pi
 
 # 4/8 ред
 # print(2+2)
@@ -252,3 +253,65 @@ innovationRating = ['Sweden', 'Germany', 'Denmark', 'Finland', 'Netherlands', 'L
 # print([x * 2 for x in range(10, 20)])
 # print(space)
 # print([x * 2 for x in range(10, 20) if x % 3 == 0])
+
+# низове
+
+#
+# single1 = 'test'
+# single2= "test"
+# duble1= """test
+# test
+# test
+# """
+# print(single1)
+# print(space)
+# print(single2)
+# print(space)
+# print(duble1)
+
+# formattetString = "hello i study %s in %s"
+# values = ("computer science", "nbu ")
+# print(formattetString %values)  #271/273
+
+# print("the answer is %d" % 54)
+# print("65536 is %x" % 65536)#275/276
+
+# print("%10f" % pi )
+# print(space)
+# print("%10.2f" % pi )
+# print(space)
+# print("%.2f" % pi )
+# print(space)
+# print('%.5s'%'Albus Percival Wulfric Brian Dumbledore''Albus')
+
+
+# from blist import blist
+#
+# items = blist([5, 6, 2])
+
+# single = 'test 1'
+# single2= "test 2"
+# multy= """test
+#           test
+#           test"""
+# print(single)
+# print(space)
+# print(single2)
+# print(space)
+# print(multy)
+
+# formattedString = "Hi ! i study %s in %s"
+# values = ("computer sience" , "nbu")
+# print(formattedString % values)
+
+# print("the answer is %d" % 43)
+# print(space)
+# print( "65536 in HEX is %x" % 65536)
+
+# print("%10f" % pi)
+# print ("%10.2f" % pi)
+# print ("%.2f" % pi)
+
+# print ("%+5d" % 10)
+# print ("%+5d" % -10)
+
